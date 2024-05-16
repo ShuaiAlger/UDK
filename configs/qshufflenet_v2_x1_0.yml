@@ -1,0 +1,12 @@
+configuration:
+    # enable_two_stage: True
+    enable_two_stage: False
+    model: 'qshufflenet_v2_x1_0'
+
+    ratio_th: [0.9, 0.9, 0.9, 0.9, 0.95, 1.0]
+    # ratio_th: [0.7, 0.8, 0.8, 0.8, 0.9, 1.0]
+    
+    bidirectional: True
+    # bidirectional: False
+    display_results: True
+    output_directory: 'results'
