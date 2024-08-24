@@ -1,8 +1,20 @@
 # UDK
 
-
-
-
+### requirments
+```
+pytorch >= 1.8.0
+numpy
+opencv-python >= 4.4.0
+argparse
+PyYaml
+matplotlib
+loguru
+glob
+h5py
+kornia
+pathlib
+tqdm
+```
 ### Test Data
 
 [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz)
