@@ -1,4 +1,8 @@
 # UDK
+### source code of [Universally Describing Keypoints From a Semi-Global to Local Perspective, Without Any Specific Training](https://github.com/ShuaiAlger/UDK)
+```
+Keypoint extraction represents fundamental and pivotal tasks within the realm of robotic vision. Deep learning-based approaches for keypoint extraction showcase remarkable prowess and achievements. Nevertheless, these deep learning methodologies often necessitate specialized training on extensive datasets. While methods based on pre-trained backbone network feature maps for feature matching exist, they are still constrained by specific algorithmic workflows that do not decouple keypoints' descriptors from the matching process. We study the method of relying exclusively on a pre-trained backbone network sourced from ImageNet for keypoint extraction and demonstrate the impact of different detection strategies and descriptor composition strategies on matching performance. The proposed pipeline obviates the need for tailored training while concurrently achieving state-of-the-art performance. To validate the efficacy of our algorithm, comprehensive evaluations are conducted across the HPatches, MegaDepth, and Scannet datasets.
+```
 
 ### requirments
 ```
